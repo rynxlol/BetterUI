@@ -6,5 +6,12 @@ BetterUI can make a perfect UI panel for your small scripts, making it perfect f
 * Gives you more power/control
 
 ## Getting Started
+### Library
+Load in the library to get started.
+```lua
+loadstring(game:HttpGet("https://raw.githubusercontent.com/rynxlol/BetterUI/refs/heads/main/main.lua"))()
+```
+
+### Methods
 
 ## Elements
