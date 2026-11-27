@@ -5,6 +5,9 @@ BetterUI can make a perfect UI panel for your small scripts, making it perfect f
 * Better for simple scripts
 * Gives you more power/control
 
+> [!WARNING]
+> This script is currently in Beta. No other features are released yet. Basically only focus on 1 tab only.
+
 ## Getting Started
 ### Library
 Load in the library to get started.
