@@ -8,6 +8,8 @@ BetterUI can make a perfect UI panel for your small scripts, making it perfect f
 > [!WARNING]
 > This script is currently in Beta. No other features are released yet. Basically only focus on 1 tab only.
 
+![A screenshot showing a panel with all elements.](https://raw.githubusercontent.com/rynxlol/BetterUI/refs/heads/main/example.png)
+
 ## Getting Started
 ### Library
 Load in the library to get started.
