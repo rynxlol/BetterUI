@@ -9,9 +9,59 @@ BetterUI can make a perfect UI panel for your small scripts, making it perfect f
 ### Library
 Load in the library to get started.
 ```lua
-loadstring(game:HttpGet("https://raw.githubusercontent.com/rynxlol/BetterUI/refs/heads/main/main.lua"))()
+local betterUI = loadstring(game:HttpGet("https://raw.githubusercontent.com/rynxlol/BetterUI/refs/heads/main/main.lua"))()
 ```
+| Methods | Description |
+| --- | --- |
+| SetSize( Size: `UDim2` ) | Set the size of the panel. |
+| SetName( Name: `string` ) | Give it a good name. It will show up on the top bar. |
+| SetTabTransparency( Transparency: `number` ) | Set the transparency of the tabs. |
+| CreateTab( TabName: `name` ) | Create the tab. These are where your content will be in. |
+| Count() | Adds a number to the counter badge. Perfect for notifications. |
 
-### Methods
+### Create a tab
+This is where you will have everything in. A tab can be created with or without a name.
+```lua
+local tab = betterUI:CreateTab("Very Nice Commands")
+```
+| Methods | Description |
+| --- | --- |
+| GetSize() | Returns the tab size. |
+| AddObject( `GuiObject` ) | Add in your UI object to the tab. |
 
 ## Elements
+### Create a label
+Add a nice text in the tab.
+```lua
+tab:CreateLabel("Commands")
+```
+### Create a button
+Add a nice button.
+```lua
+tab:CreateButton("Click Me", function()
+  print("This button has been clicked!")
+end)
+```
+### Create a toggle
+Add a nice toggle.
+```lua
+tab:CreateToggle("Toggle Me", function(value)
+  if value then
+    print("The toggle is ON!")
+  else
+    print("The toggle is OFF!")
+  end
+end)
+```
+### Create an input
+The input elements only contain strings.
+```lua
+tab:CreateInput("Change Name", "c00lgui", function(value)
+  betterUI:SetName(value)
+end)
+```
+### Create a divider
+Divide the elements.
+```lua
+tab:CreateDivider()
+```
