@@ -1,4 +1,4 @@
--- COPY THIS:
+-- COPY THIS: loadstring(game:HttpGet("https://raw.githubusercontent.com/rynxlol/BetterUI/refs/heads/main/main.lua"))()
 -- BetterUI by Rynx
 
 local runService = game:GetService("RunService")
