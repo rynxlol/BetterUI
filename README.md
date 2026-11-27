@@ -42,25 +42,25 @@ tab:CreateLabel("Commands")
 Add a nice button.
 ```lua
 tab:CreateButton("Click Me", function()
-  print("This button has been clicked!")
+    print("This button has been clicked!")
 end)
 ```
 ### Create a toggle
 Add a nice toggle.
 ```lua
 tab:CreateToggle("Toggle Me", function(value)
-  if value then
-    print("The toggle is ON!")
-  else
-    print("The toggle is OFF!")
-  end
+    if value then
+        print("The toggle is ON!")
+    else
+        print("The toggle is OFF!")
+    end
 end)
 ```
 ### Create an input
 The input elements only contain strings.
 ```lua
 tab:CreateInput("Change Name", "c00lgui", function(value)
-  betterUI:SetName(value)
+    betterUI:SetName(value)
 end)
 ```
 ### Create a divider
