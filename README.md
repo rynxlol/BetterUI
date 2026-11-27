@@ -23,7 +23,7 @@ local betterUI = loadstring(game:HttpGet("https://raw.githubusercontent.com/rynx
 | Count() | Adds a number to the counter badge. Perfect for notifications. |
 
 ### Create a tab
-This is where you will have everything in. A tab can be created with or without a name.
+This is where you will have everything in. A tab can be created with or without a name (for 1 tab only), just don't forget the quotes.
 ```lua
 local tab = betterUI:CreateTab("Very Nice Commands")
 ```
